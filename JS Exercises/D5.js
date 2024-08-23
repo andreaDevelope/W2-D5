@@ -98,27 +98,27 @@ es5();
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
-// const newCar = {
-//   brand: "Volkswagen",
-//   model: "Polo",
-//   color: "black",
-//   trims: ["life", "style", "r-line"],
-//   licensePlate: "New York",
-// };
-//SE SCOMMENTI IL 6 è UNDEFINED IL 7
-// const es6 = (param1 = cars, param2 = newCar) => {
-//   param1.push(param2);
-//   param1.forEach((car) => {
-//     car.trims.pop();
-//   });
-//   console.log(param1);
-// };
+const newCar = {
+  brand: "Volkswagen",
+  model: "Polo",
+  color: "black",
+  trims: ["life", "style", "r-line"],
+  licensePlate: "New York",
+};
 
-// es6();
+const es6 = (param1 = cars, param2 = newCar) => {
+  param1.push(param2);
+  param1.forEach((car) => {
+    car.trims.pop();
+  });
+  console.log(param1);
+};
 
-/* ESERCIZIO 7
-    Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
-*/
+// // es6();
+
+// /* ESERCIZIO 7
+//     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
+// */
 const justTrims = [];
 
 const es7 = () => {
