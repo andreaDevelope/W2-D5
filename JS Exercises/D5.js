@@ -109,7 +109,7 @@ es5();
 // const es6 = (param1 = cars, param2 = newCar) => {
 //   param1.push(param2);
 //   param1.forEach((car) => {
-//     delete car.trims;
+//     car.trims.pop();
 //   });
 //   console.log(param1);
 // };
