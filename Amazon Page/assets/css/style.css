@@ -1,0 +1,198 @@
+/* inizio regole globali */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+
+/* fine regole globali */
+
+/* inizio classi comuni */
+
+.dark-blue {
+  background-color: #222f3f;
+}
+
+.light-blue {
+  background-color: #364757;
+}
+
+.panel-block {
+  height: 300px;
+  margin-top: 2rem;
+}
+
+.shopping-link {
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.cards-inline {
+  width: 24%;
+  display: inline-block;
+  padding-left: 20px;
+  margin-left: 2px;
+}
+
+/* fine classi comuni */
+
+/* inizio header */
+header > div {
+  height: 60px;
+}
+
+header > div > img {
+  width: 100px;
+  margin: 12px;
+}
+
+nav {
+  height: 35px;
+  padding-left: 1rem;
+}
+
+nav > div {
+  display: inline-block;
+  height: 100%;
+  margin-inline: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  height: 100%;
+  line-height: 35px;
+}
+
+.nav-link-text {
+  font-size: 1rem;
+  text-align: center;
+  color: #fcf4d5;
+}
+
+/* fine header */
+
+/* inizio main */
+
+main {
+  width: 95vw;
+  margin-inline: auto;
+}
+
+.pre-title {
+  height: 30px;
+  background-color: #f56600;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.pre-title > p {
+  line-height: 30px;
+  color: #fcf4d5;
+}
+
+.hero {
+  width: 100%;
+}
+
+.hero > .pre-title + div {
+  margin-top: 1.5rem;
+  background-image: url(../images/bg-image.png);
+  height: 180px;
+}
+
+.hero > .pre-title + div > h1 {
+  color: #fcf4d5;
+  text-align: center;
+  padding-top: 60px;
+  font-weight: 700;
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+
+.hero > .pre-title + div > h1 > span {
+  font-size: 0.8rem;
+}
+
+.gift-cards > .bg-white {
+  background-color: #ffffff;
+  height: 300px;
+  margin-top: 1.5rem;
+}
+
+.gift-cards > div > h4,
+.gift-cards > div > h4 > a {
+  display: inline-block;
+  padding-inline: 3px;
+  padding-left: 10px;
+}
+
+.gift-cards > div > h4 {
+  font-weight: 600;
+  margin-left: 13px;
+  display: block;
+}
+
+.gift-cards > div > h4 > a > p {
+  font-size: 0.8rem;
+  color: #054350;
+}
+
+.cards-inline > img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.clock-img {
+  object-fit: cover;
+}
+
+.panel-block > img {
+  width: 100%;
+  height: 100%;
+}
+
+.shopping-link > a {
+  display: inline-block;
+  font-size: 0.6rem;
+  color: #18515d;
+  margin-left: 1rem;
+}
+
+/* fine main */
+
+/* inizio aside */
+
+aside {
+  margin-top: 1rem;
+}
+.aside-parag {
+  color: #e9edee;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  text-align: center;
+}
+
+/* fine aside */
+
+/* inizio footer */
+
+.footer {
+  height: 100px;
+  text-align: center;
+}
+
+.footer > img {
+  width: 100px;
+  margin-top: 30px;
+}
