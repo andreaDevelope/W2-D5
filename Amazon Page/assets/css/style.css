@@ -81,8 +81,7 @@ a {
 /* inizio main */
 
 main {
-  width: 95vw;
-  margin-inline: auto;
+  padding-inline: 1rem;
 }
 
 .pre-title {
